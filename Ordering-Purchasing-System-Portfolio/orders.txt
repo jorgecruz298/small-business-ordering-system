@@ -1,0 +1,40 @@
+Order Number: 838905
+Items: Onions (x2)
+Total Cost: $1.2
+Delivery Date: 2025-10-19
+---
+Order Number: 788457
+Items: Potatoes (x4)
+Total Cost: $1.6
+Delivery Date: 2024-12-18
+---
+Order Number: 350373
+Items: Strawberries (x1)
+Total Cost: $3.5
+Delivery Date: 2024-12-19
+---
+Order Number: 919025
+Items: Broccoli (x100)
+Total Cost: $190.0
+Delivery Date: 2024-12-20
+---
+Order Number: 664348
+Items: Lettuce (x2)
+Total Cost: $2.4
+Delivery Date: 2025-10-19
+---
+Order Number: 742729
+Items: Apples (x10)
+Total Cost: $5.0
+Delivery Date: 2025-10-17
+---
+Order Number: 276112
+Items: Peppers (x1)
+Total Cost: $1.1
+Delivery Date: 2025-10-15
+---
+Order Number: 425309
+Items: Potatoes (x2)
+Total Cost: $0.8
+Delivery Date: 2025-09-16
+---
