@@ -12,13 +12,12 @@ An academic project developed to explore how a Java application can support smal
 - Java
 - Eclipse IDE
 - Java Swing
-- SQL/MySQL (if used in the implementation)
 
 ## Screenshots
-Screenshots of the running application will be added here.
+
 
 ## Running the Application
-Setup instructions and any database requirements will be documented here.
+
 
 ## Project Context
 Developed as part of my Information Technology studies at Northern Virginia Community College.
