@@ -1,40 +1,80 @@
-# small-business-ordering-system
+# ProcureWorx – Small Business Transaction Manager
 
 ## Overview
-An academic project developed to explore how a Java application can support small-business ordering and purchasing workflows.
+
+ProcureWorx is a Java desktop application developed as an academic project to simulate purchasing and inventory management operations for a small business.
+
+The application provides separate interfaces for Purchasing Agents and Vendor Representatives, allowing users to manage inventory, create purchase orders, and review pending orders through a graphical user interface.
 
 ## Features
-- Graphical user interface
-- Product and ordering functionality
-- Purchasing workflow support
 
-## Technologies
-- Java
-- Eclipse IDE
+- **Role-Based Access:** Separate login interfaces for Purchasing Agents and Vendor Representatives.
+- **Inventory Management:** Tracks 20 predefined products, including quantities and unit prices.
+- **Purchase Order Creation:** Allows users to select products, enter quantities, and generate purchase orders.
+- **Order Calculations:** Automatically calculates individual item costs and total order amounts.
+- **Delivery Scheduling:** Validates delivery dates before order submission.
+- **Order Number Generation:** Generates unique-format six-digit order numbers.
+- **File Storage:** Saves purchase order summaries to a local text file (`orders.txt`).
+- **Order Processing:** Allows Vendor Representatives to approve or reject pending purchase orders.
+
+## Technologies Used
+
+- Java 11
 - Java Swing
+- Object-Oriented Programming (OOP)
+- Java Collections (`HashMap`, `Map`, `Queue`)
+- File I/O
+- Eclipse IDE
+
+## Project Structure
+
+```text
+Ordering-Purchasing-System-Portfolio/
+│
+├── src/
+│   ├── Primary.java
+│   └── Transactions/
+│       ├── Inventory.java
+│       ├── CreatePurchaseOrder.java
+│       └── ApproveOrder.java
+│
+├── bin/
+├── doc/
+└── orders.txt
+```
+
+## Running the Application
+
+### Requirements
+- Java JDK 11 or later
+- Eclipse IDE (recommended)
+
+### Instructions
+
+1. Clone or download this repository.
+2. Open Eclipse IDE.
+3. Select **File → Import → General → Existing Projects into Workspace**.
+4. Browse to the `Ordering-Purchasing-System-Portfolio` folder.
+5. Select the project and click **Finish**.
+6. Expand the `src` folder in the Package Explorer.
+7. Open `Primary.java`.
+8. Right-click the file and select **Run As → Java Application**.
+
+The application will open in a Java Swing window, beginning with the role selection screen.
+
+### Demo Login Credentials
+
+| Role | Password |
+|---|---|
+| Purchasing Agent | `agent123` |
+| Vendor Representative | `vendor123` |
+
+*The application currently uses demonstration credentials.*
 
 ## Screenshots
 
-
-## Running the Application
-### Requirements
-- Java Development Kit (JDK)
-- Eclipse IDE (recommended)
-
-### Setup Instructions
-
-1. Clone or download this repository to your local computer.
-2. Open Eclipse IDE.
-3. Navigate to **File → Import → General → Existing Projects into Workspace**.
-4. Select the downloaded `Ordering-Purchasing-System-Portfolio` folder.
-5. Click **Finish** to import the project.
-6. Expand the project in the Package Explorer and navigate to the `src` folder.
-7. Locate the main Java class containing the `main()` method.
-8. Right-click the main class and select **Run As → Java Application**.
-
-The application should launch in a Java Swing graphical interface.
-
-**Note:** The project was originally developed in Eclipse. Depending on your Java environment and project configuration, additional setup may be required.
+Screenshots of the application interface are available in the `Screenshots` folder.
 
 ## Project Context
-Developed as part of my Information Technology studies at Northern Virginia Community College.
+
+Developed as part of my Information Technology studies at Northern Virginia Community College (NOVA).
