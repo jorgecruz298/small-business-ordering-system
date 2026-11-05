@@ -75,6 +75,78 @@ The application will open in a Java Swing window, beginning with the role select
 
 Screenshots of the application interface are available in the `Screenshots` folder.
 
+The screenshots below demonstrate the main features and workflows of ProcureWorx, from user login and inventory management to purchase order creation and approval.
+
+### 1. Login & Navigation
+
+**Start Menu** – Initial application screen.
+
+![Start Menu](Screenshots/Start%20Menu.png)
+
+**Agent Login** – Purchasing agent login screen.
+
+![Agent Login](Screenshots/Agent%20Login.png)
+
+**Agent Menu** – Main menu for purchasing agents.
+
+![Agent Menu](Screenshots/Agent%20Menu.png)
+
+**Vendor Window** – Vendor representative interface.
+
+![Vendor Window](Screenshots/Vendor%20Window.png)
+
+### 2. Inventory Management
+
+**Update Inventory Window** – Interface for managing product inventory.
+
+![Update Inventory Window](Screenshots/Update%20Inv%20Levels%20Window.png)
+
+**Item Update** – Updating product quantities.
+
+![Item Update](Screenshots/Item%20Update.png)
+
+**Updated Inventory Levels** – Displays inventory after updates.
+
+![Updated Inventory Levels](Screenshots/Updated%20Inv%20Levels.png)
+
+### 3. Purchase Order Creation
+
+**Order Window** – Purchase order creation interface.
+
+![Order Window](Screenshots/Order%20Window.png)
+
+**Item Selection** – Selecting products for an order.
+
+![Item Selection](Screenshots/Item%20Selection.png)
+
+**Order Submission** – Purchase order submission confirmation.
+
+![Order Submission](Screenshots/Order%20Submission.png)
+
+**Delivery Date Validation** – Example of delivery date error handling.
+
+![Delivery Date Error](Screenshots/Delivery%20Date%20Error.png)
+
+### 4. Order Approval
+
+**Approve Purchase Window** – Reviewing pending purchase orders.
+
+![Approve Purchase Window](Screenshots/Approve%20Purchase%20Window.png)
+
+**Approved Order** – Example of a successfully approved order.
+
+![Approved Order](Screenshots/Approved%20Order.png)
+
+**Rejected Order** – Example of an order rejection.
+
+![Rejected Order](Screenshots/Order%20Rejected.png)
+
+### 5. Application Navigation
+
+**Countdown Return to Menu** – Countdown screen before returning to the main menu.
+
+![Countdown Return to Menu](Screenshots/Countdown%20Return%20to%20Menu.png)
+
 ## Project Context
 
 Developed as part of my Information Technology studies at Northern Virginia Community College (NOVA).
